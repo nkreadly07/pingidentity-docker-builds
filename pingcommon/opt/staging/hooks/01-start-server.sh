@@ -6,7 +6,7 @@
 #
 # This may be useful to "call home" or send a notification of startup to a command and control center
 #
-
+sleep 3000
 # shellcheck source=./pingcommon.lib.sh
 . "${HOOKS_DIR}/pingcommon.lib.sh"
 
