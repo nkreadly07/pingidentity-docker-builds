@@ -16,3 +16,4 @@ test "${VERBOSE}" = "true" && set -x
 test -f "${HOOKS_DIR}/pingdirectory.lib.sh" && . "${HOOKS_DIR}/pingdirectory.lib.sh"
 
 removeDefunctServer
+sleep 1800
